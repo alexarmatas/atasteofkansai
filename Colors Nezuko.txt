@@ -1,0 +1,5 @@
+Light Pink: #D9969B
+Reddish Pink: #A64657
+White/Grey: #CAC4C6
+Red: #A61508
+Brownish Red: #400202

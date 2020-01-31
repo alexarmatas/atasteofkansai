@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.homepage {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: top left;
+    background-image: url(https://i.imgur.com/8aQz9Fr.jpg);
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+   
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0;
+}
+
+header{
+    background-color: #D9969B;
+    padding: 20px;
+    text-align: right;
+  
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+#home{
+    float: left;
+}
+
+
+
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    position: relative;
+}
+
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+nav a:hover{
+    color: #CAC4C6;
+}
+
+nav a::before{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #CAC4C6;
+    
+    position: absolute;
+    bottom: 6px;
+    width: 0%;
+
+    transition: all ease-in-out 200ms;
+    
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+h3{
+    text-align: center;
+    position: relative;
+    top: 1000px;
+    color: white;
+
+}
+/* stuff charu god unadded*/
+.personalPage {
+    background-image:url(../Images/45degreee_fabric.png);
+    background-position: top left;
+    margin: 0;
+}
+
+.charuRemmacTitle {
+    font-size: xx-large;
+    display: inline-block;
+    margin-left: 4em;
+    margin-top: 1em;
+}
+
+.charuRemmacText {
+    margin-left: 10em;
+    font-size:large;
+
+}
+
+
+
